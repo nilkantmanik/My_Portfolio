@@ -1,0 +1,52 @@
+[
+
+    {
+        "title":"Ecommerce Web App",
+        "img":"../images/e-commerce.png",
+        "desc":"Developed an e-commerce web app using MERN stack",
+        "skills":["React","Node","Express","Mongo","Redux-Toolkit"],
+        "source":"https://github.com/nilkantmanik/E-commerce-website",
+        "tag":["All","Web"]
+    },
+    {
+        "title":"Stock Pulse",
+        "img":"../images/stockpulse-logo.png",
+        "desc":"Provides real time stock price",
+        "skills":["React","Node","MySql"],
+        "source":"https://github.com/nilkantmanik/Stock-Pulse",
+        "tag":["All","Web"]
+    },
+    {
+        "title":"World Cup Management System",
+        "img":"../images/World_cup.png",
+        "desc":"Developed World cup Management System using Mysql",
+        "skills":["React","Node","MySql"],
+        "source":"https://github.com/nilkantmanik/WorldCup_Management_System_using_mysql",
+        "tag":["All","Web"]
+    },
+    {
+        "title":"Food Buddy",
+        "img":"../images/gofood.png",
+        "desc":"Developed an Food Delivery web app using MERN stack",
+        "skills":["React","Node","Express","Mongo","Redux-Toolkit"],
+        "source":"https://github.com/nilkantmanik/Food-Buddy",
+        "tag":["All","Web"]
+    },
+    {
+        "title":"Movies App",
+        "img":"../images/moviesApp.png",
+        "desc":"Movie Streaming App for Mobile",
+        "skills":["React-Native","Redux-Toolkit"],
+        "source":"https://github.com/nilkantmanik/Food-Buddy", 
+        "tag":["All","Mobile"]
+
+    },
+    {
+        "title":"TicTacToe",
+        "img":"../images/Tictactoe.png",
+        "desc":"TicTacToe game for Mobile App",
+        "skills":["React-Native"],
+        "source":"https://github.com/nilkantmanik/React-native-TicTacToe",
+        "tag":["All","Mobile"]
+    }
+]
