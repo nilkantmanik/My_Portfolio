@@ -40,7 +40,7 @@ const ContactMe = () => {
       <div className="relative mx-auto w-full opacity-90 ">
         <div className="absolute bottom-[0px]  border-[150px] border-purple-800 blur-[200px] z-[0]   bg-blue-200" />
         <div className="text-white h-[70px]  flex justify-between  items-center px-10">
-          <h1>Nilkant</h1>
+          <h1>Nilkant Manik</h1>
           <h1>All rights reserved</h1>
         </div>
       </div>
