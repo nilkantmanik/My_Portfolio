@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { skills } from "../data/skills";
 
 const AboutMe = () => {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
   return (
     <div
       id="about"
@@ -9,14 +11,36 @@ const AboutMe = () => {
     >
       <div className="absolute right-0 top-0  border-[120px] blur-[200px] border-purple-600 w-[100px] h-[100px]"></div>
       <div className="hidden lg:flex lg:flex-1 ">
-        <div className="flex flex-wrap">
+        <div
+          className="flex flex-wrap"
+        >
           {skills.map((item, index) => (
-            <div key={index}>
+            <div key={index}
+              
+              className="mb-6-5"
+            >
               <img
-                className="opacity-[0.1] duration-300 hover:opacity-100 hover:scale-[1.1] p-1 w-[120px] h-[120px]"
+               onMouseEnter={() => setHoveredIndex(index)}
+               onMouseLeave={() => setHoveredIndex(null)}
+                className="transition-opacity duration-300 opacity-[0.1] hover:opacity-100 hover:scale-[1.1]  w-[120px] h-[120px]"
                 src={item.image}
                 alt="image"
               />
+              {hoveredIndex === index  && (
+                <div 
+                  style={{
+                    position: 'relative',
+                    top: '0',
+                    left: '0',
+                    background: 'rgba(0, 0, 0, 0.7)',
+                    color: '#fff',
+                    padding: '5px',
+                    borderRadius: '5px'
+                  }}
+                >
+                  {item.name}
+                </div>
+              )}
             </div>
           ))}
         </div>
