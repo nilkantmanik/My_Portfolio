@@ -57,11 +57,6 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        {/* <div className="absolute   min-w-[50px] min-h-[50px] top-[-10px] right-[30vw] border-[150px] border-purple-800 blur-[200px]"></div> */}
-
-        {/* <div className="flex-1 w-full h-full  ">
-          <img className="w-full h-full" src="../images/picofme.jpg" alt="" />
-        </div> */}
       </div>
     </>
   );

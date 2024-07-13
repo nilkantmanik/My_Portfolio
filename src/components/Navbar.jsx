@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import Navlinks from "../NavLinks";
+// import Navlinks from "../NavLinks";
 import { Link } from "react-scroll";
 import { AiOutlineCloseCircle, AiOutlineMenu } from "react-icons/ai";
 import { HiMenu } from "react-icons/hi";
+
+import pf1 from "../../public/images/pf1.png";
 const navlinks = [
-  { 
-    path: "home", 
+  {
+    path: "home",
     title: "Home",
   },
   {
@@ -28,7 +30,8 @@ const Navbar = () => {
     <div className="fixed z-[5] w-full bg-opacity-90 ">
       <div className="p-5  max-w-[1024px] mx-auto h-[12vh] bg-opacity-90 flex items-center justify-between ">
         <div>
-          <h1 className="p-5 md:p-0  text-2xl md:text-3xl font-semibold   bg-gradient-to-r stroke-transparent  bg-clip-text text-transparent from-purple-500 to bg-pink-500">
+          <h1 className="p-5 md:p-0  text-2xl md:text-3xl font-semibold   bg-gradient-to-r stroke-transparent  bg-clip-text text-transparent from-purple-500 to bg-pink-500 flex">
+            {/* <img src={pf1} style={{ height: "32px", width: "36px" }} /> */}
             Nilkant
           </h1>
         </div>

@@ -35,7 +35,8 @@ const AboutMe = () => {
                     background: 'rgba(0, 0, 0, 0.7)',
                     color: '#fff',
                     padding: '5px',
-                    borderRadius: '5px'
+                    borderRadius: '5px',
+                    zIndex:'2'
                   }}
                 >
                   {item.name}
@@ -55,12 +56,12 @@ const AboutMe = () => {
             👨‍🎓 Currently a final year student pursuing Computer Science @PES
             University.
           </h1>
-          <div className=" w-full h-full flex flex-col   ">
+          <div className=" w-full h-full flex flex-col ">
             <h1 className="text-center  text-lg font-bold">Education</h1>
             <div className="flex items-center bg-transparent">
               <div className="bg-transparent relative">
                 <div className="m-5 h-[100px] w-[0.1px] bg-purple-500"></div>
-                <div className="absolute top-8 left-4 w-[10px] h-[10px]  border-2  border-white rounded-[50%]"></div>
+                <div className="absolute top-8 left-4 w-[10px] h-[10px]  border-2  border-white rounded-[50%] "></div>
               </div>
 
               <div>
